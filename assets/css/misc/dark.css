@@ -45,8 +45,46 @@
     color: var(--twitter-color);
 }
 
+.theme-dark .share-link-linkedin {
+    color: var(--linkedin-color);
+}
+
+.theme-dark .share-link-bluesky {
+    color: var(--bluesky-color);
+}
+
+.theme-dark .share-link-threads {
+    color: var(--threads-color);
+}
+
+.theme-dark .share-link-mastodon {
+    color: var(--mastodon-color);
+}
+
+.theme-dark .share-link-tiktok {
+    color: var(--tiktok-color);
+}
+
+.theme-dark .share-link-youtube {
+    color: var(--youtube-color);
+}
+
+.theme-dark .share-link-instagram {
+    color: var(--instagram-color);
+}
+
 .theme-dark .kg-audio-card button {
     color: var(--darker-gray-color);
+}
+
+.theme-dark .kg-bookmark-card a.kg-bookmark-container,
+.theme-dark .kg-bookmark-card a.kg-bookmark-container:hover,
+.theme-dark .kg-file-card-container,
+.theme-dark .kg-file-card-container:hover,
+.theme-dark .kg-audio-card,
+.theme-dark .kg-product-card-container {
+    background-color: var(--lighter-gray-color) !important;
+    opacity: 1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -94,5 +132,15 @@
 
     html:not(.theme-light) .kg-audio-card button {
         color: var(--darker-gray-color);
+    }
+
+    html:not(.theme-light) .kg-bookmark-card a.kg-bookmark-container,
+    html:not(.theme-light) .kg-bookmark-card a.kg-bookmark-container:hover,
+    html:not(.theme-light) .kg-file-card-container,
+    html:not(.theme-light) .kg-file-card-container:hover,
+    html:not(.theme-light) .kg-audio-card,
+    html:not(.theme-light) .kg-product-card-container {
+        background-color: var(--lighter-gray-color) !important;
+        opacity: 1;
     }
 }
